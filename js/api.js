@@ -67,7 +67,9 @@ export default class LiveresultsAPI {
         if (lastHash) {
             requestURL += `&last_hash=${lastHash}`;
         }
-        let apiResponse = await (await fetch(requestURL)).json();
+        let apiRequest = await fetch(requestURL);
+        let rawApiResponse = await apiRequest.text();
+        let apiResponse = this.clearAndParseJSON(rawApiResponse);
         if (lastHash) {
             if (apiResponse.status === 'NOT MODIFIED') {
                 console.log(`Cache hit for ${URLCacheKey}`);
