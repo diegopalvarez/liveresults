@@ -18,7 +18,7 @@ try {
     if (error.message.includes('NetworkError')) {
         alert('Erreur de réseau : veuillez vérifier votre connexion internet.');
     } else {
-        alert('Une erreur est survenue.');
+        alert('Une erreur est survenue lors de l\'analyse des données de Liveresults.');
     }
 }
 
