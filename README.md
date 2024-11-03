@@ -1,11 +1,7 @@
-# Liveresults web client
+# Liveresults Web Client
 
-This is a responsive web client for [Liveresults](https://liveresultat.orientering.se).
+This is a responsive web client for [Liveresults](https://liveresultat.orientering.se), forked from https://github.com/ptitet/liveresults.
 
-# Project status
+# Project and Ideas
 
-This project is currently in development and not ready for production.
-
-A preview is available at https://ptitet.github.io/liveresults.
-
-Please note that there might be some bugs, if you found one feel free to open an issue.
+The aim of this project is to create a better, more accesible way of checking your orienteering results.
